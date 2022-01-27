@@ -1,0 +1,8 @@
+.table-header{
+  color: #eeeeee;
+}
+
+.table-custom-hover:hover{
+  background-color: #191f26;
+  color: #f7fff7;
+}

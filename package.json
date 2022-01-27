@@ -20,6 +20,8 @@
     "@angular/router": "~13.1.0",
     "bootstrap": "^5.0.0",
     "chart.js": "^3.7.0",
+    "igniteui-angular-charts": "^13.1.0",
+    "igniteui-angular-core": "^13.1.0",
     "jquery": "^3.6.0",
     "ng2-charts": "^3.0.8",
     "popper.js": "^1.11.0",

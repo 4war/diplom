@@ -13,12 +13,20 @@ import {NgChartsModule} from "ng2-charts";
 import { BarChartComponent } from './Charts/bar-chart/bar-chart.component';
 import { LineChartComponent } from './Charts/line-chart/line-chart.component';
 import { PieChartComponent } from './Charts/pie-chart/pie-chart.component';
+import {
+  IgxPieChartModule,
+  IgxLegendModule,
+  IgxItemLegendModule
+} from "igniteui-angular-charts";
 
 @NgModule({
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
-    NgChartsModule
+    NgChartsModule,
+    IgxPieChartModule,
+    IgxLegendModule,
+    IgxItemLegendModule
   ],
   declarations: [
     AppComponent,
@@ -29,7 +37,7 @@ import { PieChartComponent } from './Charts/pie-chart/pie-chart.component';
     SectionHealthComponent,
     BarChartComponent,
     LineChartComponent,
-    PieChartComponent
+    PieChartComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

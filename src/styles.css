@@ -21,13 +21,10 @@ a:hover {
   color: #44a8cf;
 }
 
-.shadow {
+.my-shadow {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 5px 6px rgba(0, 0, 0, 0.3);
 }
 
-.section-container {
-  padding: 30px;
-}
 
 .card-theme{
   background-color: #191f26;
@@ -48,9 +45,11 @@ a:hover {
 
 .cards{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .section-container{
   padding: 30px;
 }
+
+

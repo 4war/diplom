@@ -1,1 +1,10 @@
-<p>pie-chart works!</p>
+<script src="pie-chart.component.ts"></script>
+<div>
+  <canvas baseChart
+          [datasets]="lineChartData"
+          [labels]="lineChartLabels"
+          [legend]="lineChartLegend"
+          [options]="lineChartOptions"
+          [type]="lineChartType">
+  </canvas>
+</div>
