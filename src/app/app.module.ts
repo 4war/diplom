@@ -18,6 +18,7 @@ import {
   IgxLegendModule,
   IgxItemLegendModule
 } from "igniteui-angular-charts";
+import { ServerComponent } from './server/server.component';
 
 @NgModule({
   imports: [
@@ -38,6 +39,7 @@ import {
     BarChartComponent,
     LineChartComponent,
     PieChartComponent,
+    ServerComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

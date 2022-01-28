@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Server} from "../../shared/server";
+
+
 
 @Component({
   selector: 'app-section-sales',
